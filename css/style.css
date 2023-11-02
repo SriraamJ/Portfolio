@@ -199,7 +199,7 @@ span {
   width: 75%;
 }
 .js-bar {
-  width: 74%;
+  width: 90%;
 }
 .react-bar {
   width: 70%;
@@ -297,13 +297,13 @@ textarea {
   width: 100%;
   border: none;
   outline: none;
-  background: #d2c8b9;
+  background: var(--main-color);
   margin-bottom: 1rem;
-  color: var(--text-color);
+  
 }
 form input::placeholder,
 textarea::placeholder {
-  color: var(--text-color);
+  color: #ffff !important;
 }
 form textarea {
   resize: none;
